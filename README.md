@@ -34,7 +34,9 @@ TS+node.js 开发电报机器人的架构，适用于中大型 telegram 机器�
 YouTube 频道：www.youtube.com/@user-jp4wk4en4o
 
 🚀 Usage
+
 项目全局安装命令
 `npm install`
+
 项目启动命令
 `npm start`
