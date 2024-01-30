@@ -32,3 +32,8 @@ Youtuber 频道连接 www.youtube.com/@user-jp4wk4en4o
 
 项目全局安装命令 npm install
 项目启动命令 npm start
+Start the project:
+
+bash
+Copy code
+npm start
