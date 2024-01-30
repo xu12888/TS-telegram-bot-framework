@@ -3,8 +3,8 @@
 TS+node.js 开发电报机器人的架构，适用于中大型 telegram 机器开发
 
 ![Alt text](image.png)
-使用前请将.env 文件中的 TELEGRAM_BOT_TOKEN 值设置为你的 telegramBot 的 token
-使用前请将.env 文件中的 MONGODB_CONNECTION_STRING 值设置为你的 mongodb 数据库的连接 URL
+✍️ 注意:使用前请将.env 文件中的 TELEGRAM_BOT_TOKEN 值设置为你的 telegramBot 的 token
+✍️ 注意:使用前请将.env 文件中的 MONGODB_CONNECTION_STRING 值设置为你的 mongodb 数据库的连接 URL
 
 项目架构说明：
 ![Alt text](image-1.png)
@@ -27,13 +27,12 @@ TS+node.js 开发电报机器人的架构，适用于中大型 telegram 机器�
 |-- package.json
 |-- tsconfig.json
 
-如果看不懂可以在我的 Youtuber 频道观看视频讲解项目架构的使用方法
-Youtuber 频道连接 www.youtube.com/@user-jp4wk4en4o
+如果您觉得难以理解，可以在我的 YouTube 频道观看有关项目架构的视频解释。
 
-项目全局安装命令 npm install
-项目启动命令 npm start
-Start the project:
+YouTube 频道：www.youtube.com/@user-jp4wk4en4o
 
-bash
-Copy code
-npm start
+🚀 Usage
+项目全局安装命令
+`npm install`
+项目启动命令
+`npm start`
