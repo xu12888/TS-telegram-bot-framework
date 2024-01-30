@@ -23,7 +23,9 @@ const keywords: string[] = [
 ];
 
 const keyboard = {
-  inline_keyboard: [[{ text: "机器人定制开发联系", url: "" }]],
+  inline_keyboard: [
+    [{ text: "🎉 机器人定制开发联系", url: "https://t.me/hackerJK11" }],
+  ],
 };
 
 export async function commandControl(msg: any, bot: any): Promise<void> {
@@ -52,7 +54,9 @@ export async function commandControl(msg: any, bot: any): Promise<void> {
   // 在这里可以使用提取出来的数组进行处理
   const message = await botHandler.replyBettingMessage(extractedData);
   await bot.sendMessage(chatId, message, {
+    parse_mode: "HTML",
     reply_to_message_id: originalMessageId,
+    reply_markup: keyboard,
   });
   // 在异步函数中，你可能会执行一些异步操作，例如发送消息给 Telegram Bot 用户
   // 在这里添加你的异步逻辑
