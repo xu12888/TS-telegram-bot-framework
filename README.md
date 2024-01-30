@@ -3,7 +3,9 @@
 TS+node.js 开发电报机器人的架构，适用于中大型 telegram 机器开发
 
 ![Alt text](image.png)
+
 ✍️ 注意:使用前请将.env 文件中的 TELEGRAM_BOT_TOKEN 值设置为你的 telegramBot 的 token
+
 ✍️ 注意:使用前请将.env 文件中的 MONGODB_CONNECTION_STRING 值设置为你的 mongodb 数据库的连接 URL
 
 项目架构说明：
