@@ -1,35 +1,34 @@
-TS-Telegram-Bot-Framework
-TS+Node.js framework for developing Telegram bots, suitable for medium to large-scale Telegram bot development.
+# TS-telegram-bot-framework
 
-Alt text
+TS+node.js 开发电报机器人的架构，适用于中大型 telegram 机器开发
 
-Before using, make sure to set the value of TELEGRAM_BOT_TOKEN in the .env file to your Telegram bot's token. Also, set the value of MONGODB_CONNECTION_STRING in the .env file to your MongoDB database connection URL.
+![Alt text](image.png)
+使用前请将.env 文件中的 TELEGRAM_BOT_TOKEN 值设置为你的 telegramBot 的 token
+使用前请将.env 文件中的 MONGODB_CONNECTION_STRING 值设置为你的 mongodb 数据库的连接 URL
 
-Project Structure
-lua
-Copy code
+项目架构说明：
+![Alt text](image-1.png)
 |-- src/
-| |-- index.ts // Entry file, starts the Telegram Bot
+| |-- index.ts // 入口文件，启动 Telegram Bot
 | |-- bot/
-| | |-- TelegramBot.ts // Definition and main logic for the Telegram Bot class
-| | |-- CommandController.ts // Controller for handling different commands
+| | |-- TelegramBot.ts // Telegram Bot 类的定义和主要逻辑
+| | |-- CommandController.ts // 处理不同命令的控制器
 | |-- services/
-| | |-- TelegramApiService.ts // Service for calling Telegram Bot API
-| | |-- MongoDBService.ts // MongoDB database service
+| | |-- TelegramApiService.ts // 调用 Telegram Bot API 的服务
+| | |-- MongoDBService.ts // MongoDB 数据库服务
 | |-- models/
-| | |-- TelegramTypes.ts // Definition of data types related to Telegram
-| | |-- DatabaseModels.ts // Definition of MongoDB database models
+| | |-- TelegramTypes.ts // Telegram 相关的数据类型定义
+| | |-- DatabaseModels.ts // MongoDB 数据库模型定义
 |-- config/
-| |-- config.ts // Project configuration file
+| |-- config.ts // 项目配置文件
 |-- utils/
-| |-- logger.ts // Logging utility
-|-- .env // Environment variable configuration file
+| |-- logger.ts // 日志工具
+|-- .env // 环境变量配置文件
 |-- package.json
 |-- tsconfig.json
-If you find it challenging to understand, you can watch a video explanation of the project architecture on my YouTube channel.
 
-YouTube Channel: www.youtube.com/@user-jp4wk4en4o
+如果看不懂可以在我的 Youtuber 频道观看视频讲解项目架构的使用方法
+Youtuber 频道连接 www.youtube.com/@user-jp4wk4en4o
 
-Project Setup and Start
-Install project dependencies globally: npm install
-Start the project: npm start
+项目全局安装命令 npm install
+项目启动命令 npm start
