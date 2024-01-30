@@ -1,0 +1,18 @@
+|-- src/
+|   |-- index.ts                  // 入口文件，启动 Telegram Bot
+|   |-- bot/
+|   |   |-- TelegramBot.ts       // Telegram Bot 类的定义和主要逻辑
+|   |   |-- CommandController.ts // 处理不同命令的控制器
+|   |-- services/
+|   |   |-- TelegramApiService.ts // 调用 Telegram Bot API 的服务
+|   |   |-- MongoDBService.ts      // MongoDB 数据库服务
+|   |-- models/
+|   |   |-- TelegramTypes.ts      // Telegram 相关的数据类型定义
+|   |   |-- DatabaseModels.ts     // MongoDB 数据库模型定义
+|-- config/
+|   |-- config.ts                 // 项目配置文件
+|-- utils/
+|   |-- logger.ts                 // 日志工具
+|-- .env                          // 环境变量配置文件
+|-- package.json
+|-- tsconfig.json

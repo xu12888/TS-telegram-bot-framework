@@ -1,0 +1,27 @@
+{
+  "name": "telegrambot_fastthree",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "commonjs",
+  "license": "ISC",
+  "engines": {
+    "node": "20.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.10",
+    "@types/node-telegram-bot-api": "^0.64.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "mongoose": "^8.1.1",
+    "node-telegram-bot-api": "^0.64.0"
+  }
+}
