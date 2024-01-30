@@ -33,6 +33,8 @@ TS+node.js 开发电报机器人的架构，适用于中大型 telegram 机器�
 
 YouTube 频道：www.youtube.com/@user-jp4wk4en4o
 
+项目架构 YouTube 视频讲解 https://youtu.be/BnFqYA2S4qU
+
 🚀 Usage
 
 项目全局安装命令
